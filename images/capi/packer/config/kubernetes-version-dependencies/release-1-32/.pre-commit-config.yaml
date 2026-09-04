@@ -19,10 +19,10 @@
 #   images/capi/hack/kubernetes-version-matrix.py render-tracking --write
 repos:
   - repo: https://github.com/containerd/containerd
-    rev: v2.3.2
+    rev: v2.3.4
     hooks: []
   - repo: https://github.com/containernetworking/plugins
-    rev: v1.6.0
+    rev: v1.6.2
     hooks: []
   - repo: https://github.com/opencontainers/runc
     rev: v1.4.3
