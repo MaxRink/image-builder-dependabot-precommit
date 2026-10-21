@@ -260,3 +260,27 @@ updates:
     - "ok-to-test"
     - "kind/cleanup"
     - "release-note-none"
+- package-ecosystem: docker
+  directory: /images/capi
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 5
+  groups:
+    routine-updates:
+      patterns:
+      - '*'
+      update-types:
+      - minor
+      - patch
+- package-ecosystem: github-actions
+  directory: /.github/actions/configure-k8s-version
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 5
+  groups:
+    routine-updates:
+      patterns:
+      - '*'
+      update-types:
+      - minor
+      - patch
