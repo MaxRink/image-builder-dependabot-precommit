@@ -17,7 +17,7 @@
 #   images/capi/hack/kubernetes-version-matrix.py render 1.36
 releasePins:
   "1.31":
-    containerd_version: "2.3.2"
+    containerd_version: "2.3.7"
     crictl_version: "1.31.1"
     kubernetes_cni_deb_version: "1.5.1-1.1"
     kubernetes_cni_http_source: "https://github.com/containernetworking/plugins/releases/download"
@@ -27,7 +27,7 @@ releasePins:
     kubernetes_rpm_version: "1.31.14"
     kubernetes_semver: "v1.31.14"
     kubernetes_series: "v1.31"
-    runc_version: "1.4.3"
+    runc_version: "1.4.4"
   "1.32":
     containerd_version: "2.3.2"
     crictl_version: "1.32.0"
